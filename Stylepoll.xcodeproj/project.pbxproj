@@ -3,23 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41D058139C7DD69E2217F505 /* Pods_Stylepoll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923BA730A5F92E787732E80E /* Pods_Stylepoll.framework */; };
 		CD4872D52524886A00EB1696 /* StylepollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4872D42524886A00EB1696 /* StylepollApp.swift */; };
 		CD4872D72524886A00EB1696 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4872D62524886A00EB1696 /* ContentView.swift */; };
 		CD4872D92524886C00EB1696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4872D82524886C00EB1696 /* Assets.xcassets */; };
 		CD4872DC2524886C00EB1696 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4872DB2524886C00EB1696 /* Preview Assets.xcassets */; };
+		CD4872E72524939600EB1696 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4872E62524939600EB1696 /* MainView.swift */; };
+		CD4872EA2524947900EB1696 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4872E92524947900EB1696 /* SignInView.swift */; };
+		CD4872EE2524FA6300EB1696 /* SigninButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4872ED2524FA6300EB1696 /* SigninButton.swift */; };
+		CD4872F22524FA8A00EB1696 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4872F12524FA8A00EB1696 /* SignupView.swift */; };
+		CD4872F52524FAB000EB1696 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4872F42524FAB000EB1696 /* EmailTextField.swift */; };
+		CD4872F82524FAD400EB1696 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4872F72524FAD400EB1696 /* PasswordTextField.swift */; };
+		CD4872FF2524FB9400EB1696 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4872FE2524FB9400EB1696 /* HeaderView.swift */; };
+		CD4873022525271600EB1696 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4873012525271600EB1696 /* Modifiers.swift */; };
+		CD4873052525292200EB1696 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4873042525292200EB1696 /* Constants.swift */; };
+		CD6A34672526742100805597 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6A34662526742100805597 /* SignUpView.swift */; };
+		CD6A346A2526763000805597 /* UsernameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6A34692526763000805597 /* UsernameTextField.swift */; };
+		CD6A346E2526782600805597 /* SignupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6A346D2526782600805597 /* SignupButton.swift */; };
+		CD89D548252A0DAC00FE580D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD89D547252A0DAC00FE580D /* GoogleService-Info.plist */; };
+		CD89D566252A13B800FE580D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD89D565252A13B800FE580D /* ImagePicker.swift */; };
+		CD93E903252C68E7001A62DD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93E902252C68E7001A62DD /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		923BA730A5F92E787732E80E /* Pods_Stylepoll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stylepoll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A333867D4CB7C0447C2FEE /* Pods-Stylepoll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylepoll.release.xcconfig"; path = "Target Support Files/Pods-Stylepoll/Pods-Stylepoll.release.xcconfig"; sourceTree = "<group>"; };
 		CD4872D12524886A00EB1696 /* Stylepoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stylepoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4872D42524886A00EB1696 /* StylepollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylepollApp.swift; sourceTree = "<group>"; };
 		CD4872D62524886A00EB1696 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD4872D82524886C00EB1696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD4872DB2524886C00EB1696 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD4872DD2524886C00EB1696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4872E62524939600EB1696 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CD4872E92524947900EB1696 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		CD4872ED2524FA6300EB1696 /* SigninButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninButton.swift; sourceTree = "<group>"; };
+		CD4872F12524FA8A00EB1696 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		CD4872F42524FAB000EB1696 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		CD4872F72524FAD400EB1696 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		CD4872FE2524FB9400EB1696 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		CD4873012525271600EB1696 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		CD4873042525292200EB1696 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CD6A34662526742100805597 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CD6A34692526763000805597 /* UsernameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameTextField.swift; sourceTree = "<group>"; };
+		CD6A346D2526782600805597 /* SignupButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupButton.swift; sourceTree = "<group>"; };
+		CD89D547252A0DAC00FE580D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD89D565252A13B800FE580D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		CD93E902252C68E7001A62DD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D20016521C9879B58B4C7AEA /* Pods-Stylepoll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylepoll.debug.xcconfig"; path = "Target Support Files/Pods-Stylepoll/Pods-Stylepoll.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +61,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41D058139C7DD69E2217F505 /* Pods_Stylepoll.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9915CD79492A7CC1AFF39BE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				923BA730A5F92E787732E80E /* Pods_Stylepoll.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD4872C82524886A00EB1696 = {
 			isa = PBXGroup;
 			children = (
 				CD4872D32524886A00EB1696 /* Stylepoll */,
 				CD4872D22524886A00EB1696 /* Products */,
+				E00876EECFFC366296A2DBB9 /* Pods */,
+				9915CD79492A7CC1AFF39BE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,9 +97,9 @@
 		CD4872D32524886A00EB1696 /* Stylepoll */ = {
 			isa = PBXGroup;
 			children = (
-				CD4872D42524886A00EB1696 /* StylepollApp.swift */,
-				CD4872D62524886A00EB1696 /* ContentView.swift */,
+				CD4872E42524936500EB1696 /* App */,
 				CD4872D82524886C00EB1696 /* Assets.xcassets */,
+				CD89D547252A0DAC00FE580D /* GoogleService-Info.plist */,
 				CD4872DD2524886C00EB1696 /* Info.plist */,
 				CD4872DA2524886C00EB1696 /* Preview Content */,
 			);
@@ -69,6 +114,54 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CD4872E42524936500EB1696 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CD4872D42524886A00EB1696 /* StylepollApp.swift */,
+				CD4872D62524886A00EB1696 /* ContentView.swift */,
+				CD4872E62524939600EB1696 /* MainView.swift */,
+				CD4872E92524947900EB1696 /* SignInView.swift */,
+				CD6A34662526742100805597 /* SignUpView.swift */,
+				CD89D565252A13B800FE580D /* ImagePicker.swift */,
+				CD93E902252C68E7001A62DD /* User.swift */,
+				CD89D564252A13A100FE580D /* Extensions */,
+				CD4872EC2524FA4D00EB1696 /* Components */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CD4872EC2524FA4D00EB1696 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CD4872ED2524FA6300EB1696 /* SigninButton.swift */,
+				CD6A346D2526782600805597 /* SignupButton.swift */,
+				CD4872F12524FA8A00EB1696 /* SignupView.swift */,
+				CD4872F42524FAB000EB1696 /* EmailTextField.swift */,
+				CD6A34692526763000805597 /* UsernameTextField.swift */,
+				CD4872F72524FAD400EB1696 /* PasswordTextField.swift */,
+				CD4872FE2524FB9400EB1696 /* HeaderView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CD89D564252A13A100FE580D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CD4873012525271600EB1696 /* Modifiers.swift */,
+				CD4873042525292200EB1696 /* Constants.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E00876EECFFC366296A2DBB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D20016521C9879B58B4C7AEA /* Pods-Stylepoll.debug.xcconfig */,
+				B2A333867D4CB7C0447C2FEE /* Pods-Stylepoll.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD4872E02524886C00EB1696 /* Build configuration list for PBXNativeTarget "Stylepoll" */;
 			buildPhases = (
+				0B3548EC14A72A03A2A4D14E /* [CP] Check Pods Manifest.lock */,
 				CD4872CD2524886A00EB1696 /* Sources */,
 				CD4872CE2524886A00EB1696 /* Frameworks */,
 				CD4872CF2524886A00EB1696 /* Resources */,
+				EA47AA83CF70061EB2EC4BE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +223,53 @@
 			files = (
 				CD4872DC2524886C00EB1696 /* Preview Assets.xcassets in Resources */,
 				CD4872D92524886C00EB1696 /* Assets.xcassets in Resources */,
+				CD89D548252A0DAC00FE580D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B3548EC14A72A03A2A4D14E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stylepoll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA47AA83CF70061EB2EC4BE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stylepoll/Pods-Stylepoll-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stylepoll/Pods-Stylepoll-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stylepoll/Pods-Stylepoll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD4872CD2524886A00EB1696 /* Sources */ = {
@@ -139,7 +277,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD4872D72524886A00EB1696 /* ContentView.swift in Sources */,
+				CD6A346A2526763000805597 /* UsernameTextField.swift in Sources */,
+				CD4873052525292200EB1696 /* Constants.swift in Sources */,
+				CD4872FF2524FB9400EB1696 /* HeaderView.swift in Sources */,
+				CD93E903252C68E7001A62DD /* User.swift in Sources */,
+				CD4872F22524FA8A00EB1696 /* SignupView.swift in Sources */,
+				CD6A34672526742100805597 /* SignUpView.swift in Sources */,
+				CD4872F52524FAB000EB1696 /* EmailTextField.swift in Sources */,
+				CD4873022525271600EB1696 /* Modifiers.swift in Sources */,
+				CD4872E72524939600EB1696 /* MainView.swift in Sources */,
+				CD4872EA2524947900EB1696 /* SignInView.swift in Sources */,
+				CD4872EE2524FA6300EB1696 /* SigninButton.swift in Sources */,
+				CD4872F82524FAD400EB1696 /* PasswordTextField.swift in Sources */,
+				CD89D566252A13B800FE580D /* ImagePicker.swift in Sources */,
 				CD4872D52524886A00EB1696 /* StylepollApp.swift in Sources */,
+				CD6A346E2526782600805597 /* SignupButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +416,7 @@
 		};
 		CD4872E12524886C00EB1696 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D20016521C9879B58B4C7AEA /* Pods-Stylepoll.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +439,7 @@
 		};
 		CD4872E22524886C00EB1696 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A333867D4CB7C0447C2FEE /* Pods-Stylepoll.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
