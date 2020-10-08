@@ -1,9 +1,5 @@
-//
-//  Constants.swift
-//  Stylepoll
-//
-//  Created by Romesh Singhabahu on 30/09/2020.
-//
+
+
 
 import SwiftUI
 
@@ -22,3 +18,4 @@ let TEXT_SIGNUP_NOTE = "Quando crei l'account ti permette di salvare e accedere 
 
 let IMAGE_LOGO = "logo"
 let IMAGE_USER_PLACEHOLDER = "user-placeholder"
+
