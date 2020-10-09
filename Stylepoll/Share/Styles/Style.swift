@@ -1,9 +1,6 @@
-//
-//  Modifiers.swift
-//  Stylepoll
-//
-//  Created by Romesh Singhabahu on 30/09/2020.
-//
+
+
+
 
 import SwiftUI
 
@@ -24,3 +21,15 @@ struct SinginButtonModifier: ViewModifier {
             .padding()
     }
 }
+
+
+struct SquishableButtonStyle: ButtonStyle {
+    var fadeOnPress = true
+
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .opacity(configuration.isPressed && fadeOnPress ? 0.75 : 1)
+            .scaleEffect(configuration.isPressed ? 0.95 : 1)
+    }
+}
+
